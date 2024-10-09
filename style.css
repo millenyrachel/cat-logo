@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Didot', serif; /* Fonte elegante similar à usada pela Vogue */
+    font-family: 'Didot',  Serif ; /* Fonte elegante similar à usada pela Vogue */
     line-height: 1.6;
     background-color: #ffffffbb; /* Fundo branco para um look clean */
     color: #000000;
@@ -36,6 +36,28 @@ header {
     padding: 40px 0;
     text-align: center;
 }
+.card-content button {
+    background-color: #201e1e00; /* Cor de fundo */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 1em; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor em forma de mão */
+       text-decoration: underline; /* Adiciona o sublinhado */
+    transition: background-color 0.3s, transform 0.2s; /* Transição suave */
+}
+
+.card-content button:hover {
+    background-color: #3d3a3bb4; /* Cor ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento ao passar o mouse */
+}
+
+.card-content button:focus {
+    outline: none; /* Remove o contorno padrão */
+    box-shadow: 5 5 400px rgba(0, 0, 0, 0.5); /* Sombra ao focar */
+}
+
 
 .brand {
     font-size: 3em;
