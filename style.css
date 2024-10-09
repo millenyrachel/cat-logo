@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Didot', serif; /* Fonte elegante similar à usada pela Vogue */
+    line-height: 1.6;
+    background-color: #ffffffbb; /* Fundo branco para um look clean */
+    color: #000000;
+    background-size: 1355px 900px; /* Faz a imagem cobrir todo o espaço */
+   
+}
+.header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 655px; /* Ajuste a altura do cabeçalho */
+    background-image: url('https://www.fmdos.cl/wp-content/uploads/2015/11/ropa1.jpg'); /* URL da imagem */
+    background-size: contain; /* Ou use 'contain' se preferir */
+    background-position: center;
+    z-index: -1; /* Para ficar atrás do texto */
+}
+
+.content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+}
+
+header {
+    background-color: #2c2a2a4b; /* Fundo preto para destaque */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.brand {
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.foto {
+    width: 30%; 
+
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #e63946; /* Cor de destaque ao passar o mouse */
+}
+
+.header-block {
+    margin-top: 20px;
+}
+
+.header-block img {
+    width: 100%; /* Imagem de cabeçalho em tela cheia */
+    height: auto ;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.catalog, .about, .features {
+    padding: 60px 20px;
+    margin: 20px 0;
+}
+
+.title-wrapper-catalog, .title-wrapper-about, .title-wrapper-features {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title-wrapper-catalog h3, .title-wrapper-about h3, .title-wrapper-features h3 {
+    font-size: 2.5em; /* Títulos maiores */
+    margin-bottom: 10px;
+    color: #000000; /* Preto para contraste */
+    text-transform: uppercase;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-item {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.card-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+}
+
+.card-item img {
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-content .left, .about-content .right {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-content img {
+    width: 100%; /* Imagem de sobre */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.feature-card-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feature-card-item {
+    text-align: center;
+    width: 22%; /* Largura das cartas de características */
+    margin: 10px;
+}
+
+.feature-card-item img {
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #000; /* Fundo preto */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #e63946; /* Cor de destaque ao passar o mouse */
+}
+
+/* Cores com transparência */
+.transparent-100 { background-color: rgba(255, 255, 255, 1); } /* FF */
+.transparent-99  { background-color: rgba(252, 252, 252, 0.99); } /* FC */
+.transparent-98  { background-color: rgba(250, 250, 250, 0.98); } /* FA */
+.transparent-97  { background-color: rgba(247, 247, 247, 0.97); } /* F7 */
+.transparent-96  { background-color: rgba(245, 245, 245, 0.96); } /* F5 */
+.transparent-95  { background-color: rgba(242, 242, 242, 0.95); } /* F2 */
+.transparent-94  { background-color: rgba(240, 240, 240, 0.94); } /* F0 */
+.transparent-93  { background-color: rgba(237, 237, 237, 0.93); } /* ED */
+.transparent-92  { background-color: rgba(235, 235, 235, 0.92); } /* EB */
+.transparent-91  { background-color: rgba(232, 232, 232, 0.91); } /* E8 */
+.transparent-90  { background-color: rgba(230, 230, 230, 0.90); } /* E6 */
+.transparent-89  { background-color: rgba(227, 227, 227, 0.89); } /* E3 */
+.transparent-88  { background-color: rgba(224, 224, 224, 0.88); } /* E0 */
+.transparent-87  { background-color: rgba(222, 222, 222, 0.87); } /* DE */
+.transparent-86  { background-color: rgba(219, 219, 219, 0.86); } /* DB */
+.transparent-85  { background-color: rgba(217, 217, 217, 0.85); } /* D9 */
+.transparent-84  { background-color: rgba(214, 214, 214, 0.84); } /* D6 */
+.transparent-83  { background-color: rgba(211, 211, 211, 0.83); } /* D4 */
+.transparent-82  { background-color: rgba(209, 209, 209, 0.82); } /* D1 */
+.transparent-81  { background-color: rgba(207, 207, 207, 0.81); } /* CF */
+.transparent-80  { background-color: rgba(204, 204, 204, 0.80); } /* CC */
+.transparent-79  { background-color: rgba(201, 201, 201, 0.79); } /* C9 */
+.transparent-78  { background-color: rgba(199, 199, 199, 0.78); } /* C7 */
+.transparent-77  { background-color: rgba(196, 196, 196, 0.77); } /* C4 */
+.transparent-76  { background-color: rgba(194, 194, 194, 0.76); } /* C2 */
+.transparent-75  { background-color: rgba(191, 191, 191, 0.75); } /* BF */
+.transparent-74  { background-color: rgba(189, 189, 189, 0.74); } /* BD */
+.transparent-73  { background-color: rgba(186, 186, 186, 0.73); } /* BA */
+.transparent-72  { background-color: rgba(184, 184, 184, 0.72); } /* B8 */
+.transparent-71  { background-color: rgba(181, 181, 181, 0.71); } /* B5 */
+.transparent-70  { background-color: rgba(179, 179, 179, 0.70); } /* B3 */
+.transparent-69  { background-color: rgba(176, 176, 176, 0.69); } /* B0 */
+.transparent-68  { background-color: rgba(173, 173, 173, 0.68); } /* AD */
+.transparent-67  { background-color: rgba(171, 171, 171, 0.67); } /* AB */
+.transparent-66  { background-color: rgba(168, 168, 168, 0.66); } /* A8 */
+.transparent-65  { background-color: rgba(166, 166, 166, 0.65); } /* A6 */
+.transparent-64  { background-color: rgba(163, 163, 163, 0.64); } /* A3 */
+.transparent-63  { background-color: rgba(161, 161, 161, 0.63); } /* A1 */
+.transparent-62  { background-color: rgba(158, 158, 158, 0.62); } /* 9E */
+.transparent-61  { background-color: rgba(156, 156, 156, 0.)
+} 
