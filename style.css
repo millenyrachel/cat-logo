@@ -5,22 +5,23 @@
 }
 
 body {
-    font-family: 'Prata', Serif; /* Fonte elegante similar à usada pela Vogue */
+    font-family: 'Prata', Serif; 
     line-height: 1.6;
-    background-color: #e2d8bc; /* Fundo branco para um look clean */
+    background-color: #e2d8bc; 
     color: #000000;
 }
 
 .header-background {
     position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     top: 0;
     left: 0;
     right: 0;
-    height: 655px; /* Ajuste a altura do cabeçalho */
-    background-image: url('https://www.fmdos.cl/wp-content/uploads/2015/11/ropa1.jpg'); /* URL da imagem */
-    background-size: contain; /* Ou use 'cover' se preferir */
+    height: 655px; 
+    background-image: url('https://img.over-blog-kiwi.com/0/94/73/39/20200212/ob_4960a2_ermanno-scervino-show-mcfw-copyright.jpg#width=1600&height=1067'); /* URL da imagem */
+    background-size: contain; 
     background-position: center;
-    z-index: -1; /* Para ficar atrás do texto */
+    z-index: -1;
 }
 
 .content {
@@ -30,32 +31,32 @@ body {
 }
 
 header {
-    background-color: #2c2a2a4b; /* Fundo preto para destaque */
-    color: rgb(0, 0, 0);
-    padding: 40px 0;
+    background-color: #2c2a2a4b; 
+    color: #e2d8bc;
+    padding: 75px 0;
     text-align: center;
 }
 
 .card-content button {
-    background-color:#e2d8bc;; /* Cor de fundo */
-    color: rgb(0, 0, 0); /* Cor do texto */
-    border: none; /* Remove a borda padrão */
-    border-radius: 5px; /* Bordas arredondadas */
-    padding: 10px 20px; /* Espaçamento interno */
-    font-size: 1em; /* Tamanho da fonte */
-    cursor: pointer; /* Cursor em forma de mão */
-    text-decoration: none; /* Adiciona o sublinhado */
-    transition: background-color 0.3s, transform 0.2s; /* Transição suave */
+    background-color:#e2d8bc;;
+    color: rgb(0, 0, 0); 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: em;
+    cursor: pointer;
+    text-decoration: none; 
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 .card-content button:hover {
-    background-color: #3d3a3bb4; /* Cor ao passar o mouse */
-    transform: scale(1.05); /* Leve aumento ao passar o mouse */
+    background-color: #726c5c86; 
+    transform: scale(1.05); 
 }
 
 .card-content button:focus {
-    outline: none; /* Remove o contorno padrão */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra ao focar */
+    outline: none; 
+    box-shadow: 0 0 10px rgba(199, 190, 190, 0.5); 
 }
 
 .brand {
@@ -91,14 +92,14 @@ nav ul li {
 }
 
 nav a {
-    color: rgb(255, 255, 255);
+    color: rgb(202, 195, 156);
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #130a0b; /* Cor de destaque ao passar o mouse */
+    color: #130a0b; 
 }
 
 .header-block {
@@ -106,10 +107,9 @@ nav a:hover {
 }
 
 .header-block img {
-    width: 100%; /* Imagem de cabeçalho em tela cheia */
+    width: 100%;
     height: auto;
-    border-radius: 10px; /* Bordas arredondadas */
-}
+    border-radius: 10px; }
 
 .catalog, .about, .features {
     padding: 60px 20px;
@@ -122,9 +122,9 @@ nav a:hover {
 }
 
 .title-wrapper-catalog h3, .title-wrapper-about h3, .title-wrapper-features h3 {
-    font-size: 2.5em; /* Títulos maiores */
+    font-size: 2.5em;
     margin-bottom: 10px;
-    color: #000000; /* Preto para contraste */
+    color: #000000; 
     text-transform: uppercase;
 }
 
@@ -146,8 +146,8 @@ nav a:hover {
 }
 
 .card-item:hover {
-    transform: translateY(-10px); /* Ajuste a altura aqui */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgb(255, 255, 255); 
 }
 
 .card-item img {
@@ -167,8 +167,8 @@ nav a:hover {
 }
 
 .about-content img {
-    width: 100%; /* Imagem de sobre */
-    border-radius: 10px; /* Bordas arredondadas */
+    width: 100%;
+    border-radius: 10px; 
     height: above;
 }
 
@@ -176,22 +176,26 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: #f1eae3d8;
+    width: 100%;
+    border-radius: 20px;
 }
 
 .feature-card-item {
     text-align: center;
-    width: 22%; /* Largura das cartas de características */
+    width: 30%; 
     margin: 10px;
+    
 }
 
 .feature-card-item img {
     width: 80%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 9px;
 }
 
 footer {
-    background-color: #000; /* Fundo preto */
+    background-color: #000; 
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -214,14 +218,14 @@ footer a {
 }
 
 footer a:hover {
-    color: #181112; /* Cor de destaque ao passar o mouse */
+    color: #181112; 
 }
 
-/* Estilos adicionais removidos para melhor organização */
 
-/* Cartões de história */
+
+
 .historiacard1 {
-    background-color: #f1f1f1; /* Cor de fundo clara */
+    background-color: #f1f1f1; 
     padding: 40px 20px;
     text-align: center;
 }
@@ -250,7 +254,7 @@ footer a:hover {
 }
 
 .card-item1:hover {
-    transform: scale(0.95); /* Corrigido para evitar erro */
+    transform: scale(0.95);
 }
 
 .card-content1 {
@@ -316,344 +320,7 @@ button:hover {
 }
 
 .stylists-card-item img {
-    width: 40%; /* Ajuste a largura da imagem */
-    height: auto;
-}
-
-.card-content {
-    padding: 15px;
-    text-align: left;
-}
-
-.card-content h4 {
-    margin: 10px 0;
-    font-size: 1.5em;
-}
-
-.card-content p {
-    font-size: 1.1em;
-    color: #000000;
-    text-align: left;
-}
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: 'Prata', Serif; /* Fonte elegante similar à usada pela Vogue */
-    line-height: 1.6;
-    background-color: #e2d8bc; /* Fundo branco para um look clean */
-    color: #000000;
-}
-
-.header-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 655px; /* Ajuste a altura do cabeçalho */
-    background-image: url('https://www.fmdos.cl/wp-content/uploads/2015/11/ropa1.jpg'); /* URL da imagem */
-    background-size: contain; /* Ou use 'cover' se preferir */
-    background-position: center;
-    z-index: -1; /* Para ficar atrás do texto */
-}
-
-.content {
-    max-width: 1200px;
-    margin: auto;
-    padding: 50px;
-}
-
-header {
-    background-color: #2c2a2a4b; /* Fundo preto para destaque */
-    color: rgb(0, 0, 0);
-    padding: 40px 0;
-    text-align: center;
-}
-
-.card-content button {
-    background-color:#e2d8bc;; /* Cor de fundo */
-    color: rgb(0, 0, 0); /* Cor do texto */
-    border: none; /* Remove a borda padrão */
-    border-radius: 5px; /* Bordas arredondadas */
-    padding: 10px 20px; /* Espaçamento interno */
-    font-size: 1em; /* Tamanho da fonte */
-    cursor: pointer; /* Cursor em forma de mão */
-    text-decoration: none; /* Adiciona o sublinhado */
-    transition: background-color 0.3s, transform 0.2s; /* Transição suave */
-}
-
-.card-content button:hover {
-    background-color: #3d3a3bb4; /* Cor ao passar o mouse */
-    transform: scale(1.05); /* Leve aumento ao passar o mouse */
-}
-
-.card-content button:focus {
-    outline: none; /* Remove o contorno padrão */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra ao focar */
-}
-
-.brand {
-    font-size: 3em;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-nav {
-    margin-top: 20px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 20px;
-}
-
-.catalogo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.foto {
-    width: 30%; 
-}
-
-nav a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-nav a:hover {
-    color: #130a0b; /* Cor de destaque ao passar o mouse */
-}
-
-.header-block {
-    margin-top: 20px;
-}
-
-.header-block img {
-    width: 100%; /* Imagem de cabeçalho em tela cheia */
-    height: auto;
-    border-radius: 10px; /* Bordas arredondadas */
-}
-
-.catalog, .about, .features {
-    padding: 60px 20px;
-    margin: 20px 0;
-}
-
-.title-wrapper-catalog, .title-wrapper-about, .title-wrapper-features {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.title-wrapper-catalog h3, .title-wrapper-about h3, .title-wrapper-features h3 {
-    font-size: 2.5em; /* Títulos maiores */
-    margin-bottom: 10px;
-    color: #000000; /* Preto para contraste */
-    text-transform: uppercase;
-}
-
-.card-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.card-item {
-    background-color:#726c5c86; ;
-    border: none;
-    border-radius: 20px;
-    padding: 20px;
-    width: 30%;
-    margin: 20px 0;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.card-item:hover {
-    transform: translateY(-10px); /* Ajuste a altura aqui */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
-}
-
-.card-item img {
-    width: 90%;
-    height: auto;
-    border-radius: 5px;
-}
-
-.about-content {
-    display: flex;
-    align-items: center;
-}
-
-.about-content .left, .about-content .right {
-    flex: 1;
-    padding: 20px;
-}
-
-.about-content img {
-    width: 100%; /* Imagem de sobre */
-    border-radius: 10px; /* Bordas arredondadas */
-    height: above;
-}
-
-.feature-card-block {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.feature-card-item {
-    text-align: center;
-    width: 22%; /* Largura das cartas de características */
-    margin: 10px;
-}
-
-.feature-card-item img {
-    width: 80%;
-    height: auto;
-    border-radius: 5px;
-}
-
-footer {
-    background-color: #000; /* Fundo preto */
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0;
-}
-
-footer ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-footer a:hover {
-    color: #181112; /* Cor de destaque ao passar o mouse */
-}
-
-/* Estilos adicionais removidos para melhor organização */
-
-/* Cartões de história */
-.historiacard1 {
-    background-color: #f1f1f1; /* Cor de fundo clara */
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.title-wrapper1-about h3 {
-    font-size: 3em;
-    margin-bottom: 20px;
-    color: #161515e7;
-}
-
-.card-wrapper1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2px;
-}
-
-.card-item1 {
-    background-color: #291c1c3a;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    width: 800px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-}
-
-.card-item1:hover {
-    transform: scale(0.95); /* Corrigido para evitar erro */
-}
-
-.card-content1 {
-    padding: 15px;
-}
-
-.card-content1 h3 {
-    font-size: 1.5em;
-    margin: 10px 0;
-    color: #444;
-}
-
-.card-content1 p {
-    font-style: italic;
-    color: #777;
-}
-
-button {
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-.stylists {
-    padding: 50px 20px;
-    background-color: #f3ebe486;
-}
-
-.title-wrapper-stylists {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 2.5em;
-}
-
-.stylists-card-wrapper {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.stylists-card-item {
-    display: flex;
-    align-items: center;
-    width: 80%;
-    margin: 10px;
-    background-color: #726c5c86;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s;
-}
-
-.stylists-card-item:hover {
-    transform: scale(1.05);
-}
-
-.stylists-card-item img {
-    width: 40%; /* Ajuste a largura da imagem */
+    width: 40%; 
     height: auto;
 }
 
